@@ -1,0 +1,482 @@
+/*
+--------------------------------------------------------------
+N3RD.finance Main CSS
+--------------------------------------------------------------
+*/
+
+header {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.sectionclass {
+  margin: 40px 0;
+}
+body {
+  width: 65%;
+  margin: 20px auto;
+}
+a {
+  color: #282828;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.nes-container {
+  margin-bottom: 30px;
+}
+p {
+  font-size: 12px;
+}
+.subheader {
+  padding: 30px 0px 30px 0px;
+}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-list > .message.-right i {
+  margin-left: 2rem;
+}
+.message-list > .message i {
+  align-self: flex-end;
+}
+.message.-right {
+  display: inline-flex;
+}
+.nes-btn-w {
+  font-size: 15px;
+  line-height: 12px;
+}
+.nes-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nes-balloon {
+  background-color: #f7d51d;
+}
+
+.col {
+  /* padding: 1rem;*/
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.cols {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#play-pause-button {
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  padding-right: 20px;
+}
+
+.progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  vertical-align: 0;
+
+  /*Position text over the progress bar */
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.progress-bar span {
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  text-align: right;
+}
+
+.progress-bar {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.nes-icon.is-medium {
+  margin-right: 40px !important;
+}
+
+.dark {
+  background: black;
+  width: 100%;
+}
+
+.clouds {
+  background-image: url("https://i.gifer.com/5IPm.gif");
+  background-color: #3ac3fb;
+}
+
+.summary {
+  background-image: url("summary.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+
+.nes-badge.is-splited span.is-dark-30:first-child {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+  color: #fff;
+  text-align: left;
+  background-color: #484e52;
+  left: 0;
+  box-shadow: 0 0.5em #484e52, 0 -0.5em #484e52, 0 0 #484e52, -0.5em 0 #484e52;
+}
+
+.nes-badge.is-splited span.is-success-30:last-child {
+  position: absolute;
+  top: 0;
+  width: 35%;
+  padding-left: 10px;
+  color: #fff;
+  text-align: left;
+  left: 30%;
+  background-color: #209cee;
+  right: 0;
+  box-shadow: 0 0.5em #209cee, 0 -0.5em #209cee, 0.5em 0 #209cee, 0 0 #209cee;
+}
+
+.nes-badge.is-splited span.is-dark:first-child {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  padding-left: 10px;
+  color: #fff;
+  text-align: left;
+  background-color: #212529ed;
+  left: 0;
+  box-shadow: 0 0.5em #212529ed, 0 -0.5em #212529ed, 0 0 #212529ed,
+    -0.5em 0 #212529ed;
+}
+
+.nes-badge.is-splited span.is-success:last-child {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  padding-left: 10px;
+  color: #fff;
+  text-align: left;
+  left: 30%;
+  background-color: #92cc41e6;
+  right: 0;
+  box-shadow: 0 0.5em #92cc41e6, 0 -0.5em #92cc41e6, 0.5em 0 #92cc41e6,
+    0 0 #92cc41e6;
+}
+
+.nes-badge {
+  width: 100%;
+}
+
+.nes-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+.title-inner {
+  margin: 0 !important;
+  background-color: #ffffffeb !important;
+  padding: 10px;
+  box-shadow: 0 0.5em #ffffffeb, 0 -0.5em #ffffffeb, 0.5em 0 #ffffffeb,
+    -0.5em 0 #ffffffeb;
+}
+
+.telegram-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 32px;
+  margin-left: 15px;
+  /* float: left; */
+  /* margin-left: 0px; */
+  display: inline-block;
+  margin-bottom: 36px;
+  transform: scale(3);
+}
+
+.vm--block-scroll {
+  overflow: hidden;
+  width: 65% !important;
+}
+
+.vm--overlay {
+  backdrop-filter: blur(3px);
+}
+
+.button:disabled,
+.button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.title-inner {
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+.soon {
+  background-image: url("soon.gif");
+  background-size: contain;
+  height: 500px;
+}
+
+.city {
+  background-image: url("city.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.underground {
+  background-image: url("underground.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+/*
+--------------------------------------------------------------
+Mobile responsive + bug fixes
+--------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: 95%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    padding-left: 10px;
+    color: #fff;
+    text-align: left;
+    left: 30%;
+    background-color: #209ceed9;
+    right: 0;
+    box-shadow: 0 0.5em #209ceed9, 0 -0.5em #209ceed9, 0.5em 0 #209ceed9,
+      0 0 #209ceed9;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 80%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    width: 35%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    width: 65%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    width: 40%;
+  }
+}
+.summary {
+  background-position: right bottom;
+}
+
+.underground {
+  background-size: 100% 100%;
+}
+
+.snx {
+  background-image: url("snx.gif");
+  background-size: cover;
+}
+
+.roadmap {
+  background-image: url("roadmap.gif");
+  background-size: cover;
+}
+
+.discord-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+  margin-left: 5px;
+  /* float: left; */
+  /* margin-left: 0px; */
+  display: inline-block;
+  margin-bottom: 36px;
+  transform: scale(3);
+}
+
+/*
+--------------------------------------------------------------
+Mobile responsive + bug fixes
+--------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: 95%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    padding-left: 10px;
+    color: #fff;
+    text-align: left;
+    left: 30%;
+    background-color: #209ceed9;
+    right: 0;
+    box-shadow: 0 0.5em #209ceed9, 0 -0.5em #209ceed9, 0.5em 0 #209ceed9,
+      0 0 #209ceed9;
+  }
+
+  .rocket {
+    background-position: left;
+  }
+  .main-nav {
+    display: none;
+  }
+  .topnav {
+    display: inherit;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 80%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    width: 35%;
+  }
+  .main-nav {
+    display: initial;
+  }
+  .topnav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    width: 65%;
+  }
+  .nes-badge.is-splited span.is-success-30:last-child {
+    width: 40%;
+  }
+  .main-nav {
+    display: initial;
+  }
+  .topnav {
+    display: none;
+  }
+}
+
+/*
+--------------------------------------------------------------
+Mobile menu
+--------------------------------------------------------------
+*/
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  color: black;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #00416d;
+  padding: 35px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: transparent;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+/*
+--------------------------------------------------------------
+Incubator CSS Rules
+--------------------------------------------------------------
+*/
+
+.incubator-header {
+  background-image: url("head-banner-incubator.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+}
+
+.incubator {
+  display: block;
+}
+
+.rocket {
+  background-image: url("quadro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rocket img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.incubator-tba {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.title-centered {
+  margin: auto !important;
+}
+
+.incubator-btn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .cols-incubator {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cols-incubator {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
